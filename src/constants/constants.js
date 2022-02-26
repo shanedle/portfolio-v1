@@ -23,7 +23,7 @@ export const projects = [
   {
     title: "SpaceX",
     description: "SpaceX Website",
-    image: "/images/1.png",
+    image: "/images/1.jpg",
     tags: ["Next.js", "GraphQL"],
     source: "https://github.com",
     visit: "https://github.com",
@@ -32,7 +32,7 @@ export const projects = [
   {
     title: "Evite",
     description: "Fullstack Web Application",
-    image: "/images/1.png",
+    image: "/images/1.jpg",
     tags: ["MERN", "Redux", "Material UI"],
     source: "https://github.com",
     visit: "https://github.com",

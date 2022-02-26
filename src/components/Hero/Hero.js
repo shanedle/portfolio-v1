@@ -5,16 +5,19 @@ import {
   SectionText,
   SectionTitle,
 } from "../../styles/GlobalComponents";
-import { LeftSection, SocialContainer, SocialIcons } from "./HeroStyles";
+import { HeroSection, SocialContainer, SocialIcons } from "./HeroStyles";
 
 const Hero = () => (
   <>
     <Section id="hero" row nopadding>
-      <LeftSection>
+      <HeroSection>
         <SectionTitle main center>
           Hallo!
         </SectionTitle>
-
+        <SectionText>
+          I’m Shane, a Front End Developer and a cat lover based in a small town
+          in Norway.
+        </SectionText>
         <SocialContainer>
           <SocialIcons href="https://github.com/shanedle" target="_blank">
             <FaGithub size="28px" />
@@ -29,12 +32,7 @@ const Hero = () => (
             <FaEnvelope size="28px" />
           </SocialIcons>
         </SocialContainer>
-
-        <SectionText>
-          I’m Shane, a Front End Developer and a cat lover based in a small town
-          in Norway.
-        </SectionText>
-      </LeftSection>
+      </HeroSection>
     </Section>
   </>
 );
