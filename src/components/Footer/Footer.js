@@ -15,7 +15,11 @@ const Footer = () => {
       <FooterWrapper>
         <CopyrightContainer>
           <CopyrightText>
-            &copy; {new Date().getFullYear()}, coded and designed by Shane Le
+            &copy; {new Date().getFullYear()}, Made with{" "}
+            <span role="img" aria-label="heart">
+              ❤️
+            </span>{" "}
+            by Shane Le
           </CopyrightText>
         </CopyrightContainer>
         <SocialContainer>
