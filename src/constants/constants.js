@@ -21,22 +21,32 @@ import {
 
 export const projects = [
   {
-    title: "SpaceX",
-    description: "SpaceX Website",
-    image: "/images/1.jpg",
-    tags: ["Next.js", "GraphQL", "Chakra UI"],
-    source: "https://github.com/shanedle/spacex",
-    visit: "https://spacex-shanedle.vercel.app",
-    id: 0,
-  },
-  {
     title: "E-Survey",
     description: "Fullstack Web Application",
     image: "/images/1.jpg",
     tags: ["MERN", "Redux", "Material UI"],
     source: "https://github.com/shanedle/e-survey",
     visit: "https://e-survey-app.herokuapp.com",
+    id: 0,
+  },
+  {
+    title: "SpaceX",
+    description: "SpaceX Website",
+    image: "/images/1.jpg",
+    tags: ["Next.js", "GraphQL", "Chakra UI"],
+    source: "https://github.com/shanedle/spacex",
+    visit: "https://spacex-shanedle.vercel.app",
     id: 1,
+  },
+
+  {
+    title: "Pokemon",
+    description: "Pokedex",
+    image: "/images/1.jpg",
+    tags: ["React", "GraphQL", "Chakra"],
+    source: "https://github.com",
+    visit: "https://github.com",
+    id: 2,
   },
 ];
 
