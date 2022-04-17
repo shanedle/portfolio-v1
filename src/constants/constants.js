@@ -49,13 +49,31 @@ export const projects = [
     id: 2,
   },
   {
+    title: "Not WhatsApp",
+    description: "Fullstack WhatsApp Clone",
+    image: "/images/1.jpg",
+    tags: ["Next.js", "Firebase", "Chakra UI"],
+    source: "https://github.com/shanedle/not-whatsapp",
+    visit: "https://not-whatsapp-ten.vercel.app",
+    id: 3,
+  },
+  {
+    title: "Not Instagram",
+    description: "Fullstack Instagram Clone",
+    image: "/images/1.jpg",
+    tags: ["Next.js", "Firebase", "Tailwind CSS"],
+    source: "https://github.com/",
+    visit: "https://github.com/",
+    id: 4,
+  },
+  {
     title: "Car Rental",
     description: "Fullstack Web Application",
     image: "/images/1.jpg",
     tags: ["MERN", "Redux", "Ant Design"],
     source: "https://github.com/",
     visit: "https://github.com/",
-    id: 3,
+    id: 5,
   },
 ];
 
