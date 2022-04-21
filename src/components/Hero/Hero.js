@@ -15,8 +15,7 @@ const Hero = () => (
           Hallo!
         </SectionTitle>
         <SectionText>
-          I’m Shane, a Front End Developer and a cat lover based in a small town
-          in Norway.
+          I’m Shane, a Front End Developer based in a small-town in Norway.
         </SectionText>
         <SocialContainer>
           <SocialIcons href="https://github.com/shanedle" target="_blank">
