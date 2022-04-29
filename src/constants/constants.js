@@ -41,7 +41,7 @@ export const projects = [
 
   {
     title: "Pokemon",
-    description: "Pokedex",
+    description: "Pokemon Website",
     image: "/images/1.jpg",
     tags: ["React", "GraphQL", "Chakra UI"],
     source: "https://github.com/shanedle/pokemon",
@@ -62,8 +62,8 @@ export const projects = [
     description: "Fullstack Instagram Clone",
     image: "/images/1.jpg",
     tags: ["Next.js", "Firebase", "Tailwind CSS"],
-    source: "https://github.com/",
-    visit: "https://github.com/",
+    source: "https://github.com/shanedle/not-instagram",
+    visit: "https://not-instagram.vercel.app",
     id: 4,
   },
   {
@@ -71,8 +71,8 @@ export const projects = [
     description: "Fullstack Web Application",
     image: "/images/1.jpg",
     tags: ["MERN", "Redux", "Ant Design"],
-    source: "https://github.com/",
-    visit: "https://github.com/",
+    source: "https://github.com/shanedle/car-rental",
+    visit: "https://car-rental-shane.herokuapp.com",
     id: 5,
   },
 ];
